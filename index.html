@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Challenge</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style.css">
@@ -15,40 +15,48 @@
 
   <div class="bg-blue">
     <div class="container-fluid">
-      <div class="row1">
+      <div class="row row1">
         <div class="col-10 mx-auto">
           <h1 class="title text-center">Two grid tricks</h1>
           <h2 class="subtitle text-center">Wrapper around .container or cards inside .col</h2>
         </div>
       </div>
-      <div class="row2">
-        <div class="wrapper">
+      <div class="row row2">
+        <div class="col-12 wrapper">
           <div class="container-fluid">
             <h1 class="title2 text-center">Wrapper <b>around</b> .container</h1>
-            <div class="col-sm-6">
-              <h1 class="one text-center">One</h1>
-              <p class="lorem1 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta hic
-                quos
-                recusandae iste eaque sed ut provident, voluptatibus fugit mollitia illo aliquid corporis, sequi cum
-                iusto
-                soluta rem ullam.</p>
-            </div>
-            <div class="col-sm-6">
-              <h1 class="two text-center">Two</h1>
-              <p class="lorem2 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore enim nulla
-                at? Illum
-                esse
-                quis accusamus necessitatibus aliquid id, voluptas alias reiciendis neque dolore inventore aliquam
-                voluptatibus molestias, ullam distinctio?</p>
+            <div class="row">
+
+              <div class="col-sm-6">
+                <h1 class="one text-center">One</h1>
+                <p class="lorem1 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta
+                  hic
+                  quos
+                  recusandae iste eaque sed ut provident, voluptatibus fugit mollitia illo aliquid corporis, sequi cum
+                  iusto
+                  soluta rem ullam.</p>
+              </div>
+              <div class="col-sm-6">
+                <h1 class="two text-center">Two</h1>
+                <p class="lorem2 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore enim
+                  nulla
+                  at? Illum
+                  esse
+                  quis accusamus necessitatibus aliquid id, voluptas alias reiciendis neque dolore inventore aliquam
+                  voluptatibus molestias, ullam distinctio?</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row3">
-        <h1 class="card-title text-center">Card <b>inside</b> .col</h1>
+      <div class="row row3 mx-auto">
+        <div class="col-12">
+          <h1 class="card-title text-center">Card <b>inside</b> .col</h1>
+        </div>
       </div>
-      <div class="row4 d-flex">
-        <div class="col-4">
+      <div class="row"></div>
+      <div class="row row4 d-flex">
+        <div class="col-sm-6">
           <div class="card d-flex">
             <h1 class="card-header1 mx-auto">Three</h1>
             <p class="lorem3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nihil eum fuga
@@ -58,8 +66,8 @@
               quisquam.</p>
           </div>
         </div>
-        <div class="col-4">
-          <div class="card ">
+        <div class="col-sm-6">
+          <div class="card space-around">
             <h1 class="card-header2 mx-auto">Four</h1>
             <p class="lorem4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nihil eum fuga
               rem debitis error ea. Molestias, voluptatum similique totam aliquam accusantium culpa officia!
