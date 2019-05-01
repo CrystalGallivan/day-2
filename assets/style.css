@@ -10,7 +10,7 @@
   color: grey;
 }
 .row2 {
- height: 700px;
+  height: 500px;
 }
 .wrapper {
   margin-right: auto; /* 1 */
@@ -28,4 +28,7 @@
 }
 .row3 {
   height: 150px;
+}
+.card-title {
+  padding-top: 60px;
 }
