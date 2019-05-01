@@ -8,55 +8,74 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/style.css" </head> <body>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
 
-  </body>
+<body>
+
   <div class="bg-blue">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <h1 class="title align-center">Two grid tricks</h1>
-          <h2 class="subtitle">Wrapper around .container or cards inside .col</h2>
+      <div class="row1">
+        <div class="col-10 mx-auto">
+          <h1 class="title text-center">Two grid tricks</h1>
+          <h2 class="subtitle text-center">Wrapper around .container or cards inside .col</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="container-fluid bg-cyan">
-          <h1 class="title2">Wrapper around .container</h1>
-          <div class="col-6">
-            <h1 class="one">One</h1>
-            <p class="lorem1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta hic quos
-              recusandae iste eaque sed ut provident, voluptatibus fugit mollitia illo aliquid corporis, sequi cum iusto
-              soluta rem ullam.</p>
-          </div>
-          <div class="col-6">
-            <h1 class="two">Two</h1>
-            <p class="lorem2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore enim nulla at? Illum esse
-              quis accusamus necessitatibus aliquid id, voluptas alias reiciendis neque dolore inventore aliquam
-              voluptatibus molestias, ullam distinctio?</p>
+      <div class="row2">
+        <div class="wrapper">
+          <div class="container-fluid">
+            <h1 class="title2 text-center">Wrapper <b>around</b> .container</h1>
+            <hr />
+            <div class="col-sm-5">
+              <h1 class="one text-center">One</h1>
+              <p class="lorem1 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta hic
+                quos
+                recusandae iste eaque sed ut provident, voluptatibus fugit mollitia illo aliquid corporis, sequi cum
+                iusto
+                soluta rem ullam.</p>
+            </div>
+            <div class="col-sm-5">
+              <h1 class="two text-center">Two</h1>
+              <p class="lorem2 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore enim nulla
+                at? Illum
+                esse
+                quis accusamus necessitatibus aliquid id, voluptas alias reiciendis neque dolore inventore aliquam
+                voluptatibus molestias, ullam distinctio?</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <h1 class="card-title">Card <b>inside</b> .col</h1>
+      <div class="row3">
+        <h1 class="card-title text-center">Card <b>inside</b> .col</h1>
+      </div>
+      <div class="row4 d-flex">
+        <div class="col-4">
           <div class="card">
-            <h1 class="card-header1">Three</h1>
-            <p class="lorem3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nihil eum fuga rem debitis
+            <h1 class="card-header1 mx-auto">Three</h1>
+            <p class="lorem3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nihil eum fuga
+              rem
+              debitis
               error ea.
               Molestias, voluptatum similique totam aliquam accusantium culpa officia! Reprehenderit ipsam ab sit
               aspernatur
               quisquam.</p>
           </div>
+        </div>
+        <div class="col-4">
           <div class="card">
-            <h1 class="card-header2">Four</h1>
-            <p class="lorem4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nihil eum fuga rem debitis
+            <h1 class="card-header2 mx-auto">Four</h1>
+            <p class="lorem4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nihil eum fuga
+              rem
+              debitis
               error ea. Molestias, voluptatum similique totam aliquam accusantium culpa officia! Reprehenderit ipsam ab
               sit aspernatur quisquam.</p>
           </div>
         </div>
-        <div class="col"></div>
+
       </div>
     </div>
   </div>
+
+</body>
 
 </html>

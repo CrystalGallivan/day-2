@@ -1,3 +1,31 @@
 .bg-blue {
-  background-color: Pink;
+  background-color: rgba(245, 245, 245, .7);
+}
+.title {
+  color:grey;
+  padding-top: 60px; 
+
+}
+.subtitle {
+  color: grey;
+}
+.row2 {
+ height: 700px;
+}
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  max-width: 960px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+  background-color: #307aab;
+  color: white;
+}
+.title2 {
+  padding-top:70px; 
+}
+.row3 {
+  height: 150px;
 }
